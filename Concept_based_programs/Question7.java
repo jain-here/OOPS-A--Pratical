@@ -1,3 +1,4 @@
+// Program to calculate the average of three numbers
 package first_project;
 import java.util.Scanner;
 

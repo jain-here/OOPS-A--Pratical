@@ -1,3 +1,4 @@
+// Program to demonstrate narrowing type casting
 package first_project;
 import java.util.Scanner;
 
