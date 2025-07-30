@@ -1,14 +1,15 @@
-// Program to demonstrate type casting
+// Program to demonstrate widening type conversion
 package first_project;
 
 public class Question3 {
 
 	public static void main(String[] args) {
-		float f = 5.0f;
-		System.out.println("Value = " + String.format("%.8f", f));
-		System.out.printf("Value = %.8f\n", f);
-		System.out.println(f);
-		int i = (int)f;
-		System.out.println(i);
+		int i = 100;
+		long l = i; // int to long
+		float f = l; // long to float
+
+		System.out.println("Int value: " + i);
+		System.out.println("Long value: " + l);
+		System.out.println("Float value: " + f);
 	}
 }
