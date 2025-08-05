@@ -1,6 +1,3 @@
-// Solution for Q17, Q18, Q19, Q20, Q21
-
-// Main class to demonstrate inheritance concepts
 public class Inheritance_Concept_based_programs {
 
     public static void main(String[] args) {
@@ -11,12 +8,18 @@ public class Inheritance_Concept_based_programs {
         myLion.roar();  // Specific to Lion
         System.out.println();
 
+//================================================================================================
+
         // --- Q18: Single Inheritance (Vehicle System) ---
         System.out.println("--- Q18: Single Inheritance (Vehicle System) ---");
         Car myCar = new Car();
         myCar.move();       // Inherited from Vehicle
         myCar.fuelType();   // Specific to Car
         System.out.println("Inheritance promotes code reuse here by allowing Car to use the move() method from Vehicle without rewriting it.\n");
+
+//================================================================================================
+
+
 
         // --- Q19: Multilevel Inheritance (Pet Management) ---
         System.out.println("--- Q19: Multilevel Inheritance (Pet Management) ---");
@@ -25,6 +28,12 @@ public class Inheritance_Concept_based_programs {
         myPuppy.bark();  // Inherited from Dog
         myPuppy.weep();  // Specific to Puppy
         System.out.println();
+
+
+
+        //================================================================================================
+
+
 
         // --- Q20: Multilevel Inheritance (Academic System) ---
         System.out.println("--- Q20: Multilevel Inheritance (Academic System) ---");
@@ -35,6 +44,10 @@ public class Inheritance_Concept_based_programs {
         gradStudent.submitThesis();
         System.out.println();
 
+        //================================================================================================
+
+
+
         // --- Q21: Multilevel Inheritance (Smart Home) ---
         System.out.println("--- Q21: Multilevel Inheritance (Smart Home) ---");
         CeilingFan myFan = new CeilingFan();
@@ -44,6 +57,14 @@ public class Inheritance_Concept_based_programs {
         System.out.println("This design modularizes code by separating general appliance logic, fan-specific logic, and ceiling fan-specific logic into different classes.");
     }
 }
+
+
+//================================================================================================
+//================================================================================================
+//================================================================================================
+//================================================================================================
+
+
 
 // --- Q17 & Q19 Base Class ---
 // Using a single Animal class for both Q17 and Q19 for efficiency

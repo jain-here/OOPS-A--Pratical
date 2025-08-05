@@ -20,3 +20,10 @@ This directory contains programs that demonstrate fundamental concepts of Java.
 *   **Question10.java**: Checks if a number is divisible by 3 and 5.
 *   **Question11.java**: Calculates the area and circumference of a circle.
 *   **Question12.java**: Demonstrates the use of the `final` keyword.
+*   **Question13.java**: Finds the greatest of three numbers.
+
+### Inheritance
+
+This directory contains programs related to the concept of inheritance.
+
+*   **Inheritance_Concept_based_programs.java**: Demonstrates single and multilevel inheritance with examples like a zoo, vehicles, and a smart home.
