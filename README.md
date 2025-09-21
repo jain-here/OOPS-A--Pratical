@@ -10,7 +10,7 @@ This directory contains programs that demonstrate fundamental concepts of Java.
 
 *   **Question1.java**: Prints the size of various data types.
 *   **Question2.java**: Takes student details as input and displays them.
-*   **Question3.java**: Demonstrates widening type conversion.
+*   **Question3.java**: Demonstrates widening type conversion and type casting.
 *   **Question4.java**: Demonstrates narrowing type casting.
 *   **Question5.java**: Converts a character to its ASCII value.
 *   **Question6.java**: Demonstrates operator precedence.
@@ -21,6 +21,12 @@ This directory contains programs that demonstrate fundamental concepts of Java.
 *   **Question11.java**: Calculates the area and circumference of a circle.
 *   **Question12.java**: Demonstrates the use of the `final` keyword.
 *   **Question13.java**: Finds the greatest of three numbers.
+
+### Inheritance
+
+This directory contains programs related to the concept of inheritance.
+
+*   **Inheritance_Concept_based_programs.java**: Demonstrates single and multilevel inheritance with examples like a zoo, vehicles, and a smart home.
 
 ### Scenario-based Programs
 
@@ -33,7 +39,3 @@ This directory contains programs that solve scenario-based problems.
 #### Exception Handling
 
 *   **DivideByZero.java**: A simple program to handle `ArithmeticException` when dividing a number by zero.
-
-#### Inheritance
-
-*   **Inheritance_Concept_based_programs.java**: Demonstrates single and multilevel inheritance with examples like a zoo, vehicles, and a smart home.
